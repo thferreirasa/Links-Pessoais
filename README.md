@@ -6,6 +6,8 @@ Página Web contendo meus links pessoais, desenvolvida durante um encontro da fo
 ## O que aprendi
 * Durante o desenvolvimento desse projeto eu aprendi a organizar o código HTML em seções e divisões utilizando ``` <section> ``` e ``` <div> ```, e com marcações de classes, que facilitaram o processo de estilização da página em CSS. 
 
+* a organizar as imagens utilizadas numa pasta chamada "assets".
+
 * aprendi também a fazer links na forma de botões clicáveis, adicionando os botões dentro das tags ``` <a> ```:
 ```
 <a href="https://www.linkedin.com/in/thaisferreirasantos/" target="_blank">
