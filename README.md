@@ -13,11 +13,36 @@ Página Web contendo meus links pessoais, desenvolvida durante um encontro da fo
 </a>
 ```
 
-* e a colocar ícones na janela da página, com o seguinte código:
+* a colocar ícones na janela da página, com o seguinte código:
 ```
 <link rel="shortcut icon" href="./assets/thais.png"/>
 ```
 
+* a fazer um botão de contato que leva diretamente a um programa para envio de email para mim:
+```
+<a href="mailto:ilustratf@gmail.com" target="_blank">
+    <button class="botao">Contato para Ilustrações</button>
+</a>
+```
+* e aprendi a centralizar e formatar todos os botões criados no CSS, com a criação da classe "botao":
+```
+.botao {
+    color: #184e77;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 16px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(204, 237, 238);
+    width: 200px;
+    margin: 10px;
+    font-size: 14px;
+    border-color: #184e77;
+    border-width: 1px;
+}
+```
+
 ## Resultado Final!
 E foi assim que minha página com meus links pessoais ficou:
+
 ![Print de parte da página web criada, onde aparece minha foto, minha minibio e os primeiros botões](assets/print-pagina-web.PNG)
